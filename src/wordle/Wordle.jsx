@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import GamePlay from "./GamePlay";
-//still in process
+//still in process of making
 const Wordle = () => {
   const [word, setWord] = useState("");
   const [invalid, setInvalid] = useState(false);
