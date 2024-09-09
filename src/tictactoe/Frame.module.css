@@ -1,0 +1,23 @@
+.block {
+  width: 7rem;
+  height: 7rem;
+  border: 2px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 4.5rem;
+}
+
+.disabled {
+  pointer-events: none;
+  padding: 1rem;
+}
+.notdisabled {
+  padding: 1rem;
+}
